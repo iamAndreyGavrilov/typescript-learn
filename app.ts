@@ -1,3 +1,7 @@
+// 1 - успех
+// 2 - в процессе
+// 3 - отклонен
+
 enum StatusCode {
   SUCCESS = 1,
   IN_PROCESS,
@@ -11,6 +15,21 @@ const res = {
 
 if (res.statusCode === StatusCode.SUCCESS) {
 }
+
+function action(status: StatusCode) {}
+action(StatusCode.SUCCESS);
+action(1);
+
+const enum Roles {
+  ADMIN = 1,
+  USER = 2,
+  // USER = compute(),
+}
+// function compute() {
+//   return 3;
+// }
+
+const res2 = Roles.ADMIN;
 
 // //========================
 
