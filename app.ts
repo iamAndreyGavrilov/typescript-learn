@@ -1,16 +1,20 @@
-enum StatusCode {
-  SUCCESS = 1,
-  IN_PROCESS,
-  FAILED,
-}
+// //========================
+// Основные типы
 
-const res = {
-  message: "Платеж прошел успешно",
-  statusCode: StatusCode.SUCCESS,
-};
 
-if (res.statusCode === StatusCode.SUCCESS) {
-}
+// enum StatusCode {
+//   SUCCESS = 1,
+//   IN_PROCESS,
+//   FAILED,
+// }
+
+// const res = {
+//   message: "Платеж прошел успешно",
+//   statusCode: StatusCode.SUCCESS,
+// };
+
+// if (res.statusCode === StatusCode.SUCCESS) {
+// }
 
 // //========================
 
