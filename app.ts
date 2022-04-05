@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // //========================
 // Основные типы
 
@@ -15,6 +16,40 @@
 
 // if (res.statusCode === StatusCode.SUCCESS) {
 // }
+=======
+// 1 - успех
+// 2 - в процессе
+// 3 - отклонен
+
+enum StatusCode {
+  SUCCESS = 1,
+  IN_PROCESS,
+  FAILED,
+}
+
+const res = {
+  message: "Платеж прошел успешно",
+  statusCode: StatusCode.SUCCESS,
+};
+
+if (res.statusCode === StatusCode.SUCCESS) {
+}
+>>>>>>> ad1400521c2d1eb301c033addfb665c51e88416f
+
+function action(status: StatusCode) {}
+action(StatusCode.SUCCESS);
+action(1);
+
+const enum Roles {
+  ADMIN = 1,
+  USER = 2,
+  // USER = compute(),
+}
+// function compute() {
+//   return 3;
+// }
+
+const res2 = Roles.ADMIN;
 
 // //========================
 
