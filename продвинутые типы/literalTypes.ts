@@ -1,5 +1,5 @@
-function fetchWithAuth(url: string, method: "post" | "get"): 1 | -1 {
-  return 1;
-}
+// function fetchWithAuth(url: string, method: "post" | "get"): 1 | -1 {
+//   return 1;
+// }
 
-fetchWithAuth("s", "get");
+// fetchWithAuth("s", "get");
