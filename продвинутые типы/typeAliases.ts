@@ -1,23 +1,21 @@
-type User = {
-  name: string;
-  age: number;
-  skills: string[];
-};
+// type User = {
+//   name: string;
+//   age: number;
+//   skills: string[];
+// };
 
-type Role = {
-  id: number;
-};
+// let user: User = {
+//   name: "Andrey",
+//   age: 30,
+//   skills: ["1", "2"],
+// };
 
-type UserWithRole = {
-  user: User;
-  role: Role;
-};
+// type Role = {
+//   name: string;
+//   id: number;
+// };
 
-let user: UserWithRole = {
-  name: "Andrey",
-  age: 30,
-  skills: ["1", "2"],
-  id: 1,
-};
-
-type httpMethod = "post" | "get";
+// type UserWithRole = {
+//   user: User;
+//   role: Role;
+// };
