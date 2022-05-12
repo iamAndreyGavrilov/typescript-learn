@@ -1,19 +1,19 @@
-interface User {
-  name: string;
-}
-
-const a = {};
-
-// if (assertUser(a)) {
-//   a.name = "Vasya";
+// interface User {
+//   name: string;
 // }
 
-assertUser(a);
-a.name = "Vasya";
+// const a = {};
 
-function assertUser(obj: unknown): asserts obj is User {
-  if (typeof obj === "object" && !!obj && "name" in obj) {
-    return;
-  }
-  throw new Error("Не пользователь");
-}
+// // if (assertUser(a)) {
+// //   a.name = "Vasya";
+// // }
+
+// assertUser(a);
+// a.name = "Vasya";
+
+// function assertUser(obj: unknown): asserts obj is User {
+//   if (typeof obj === "object" && !!obj && "name" in obj) {
+//     return;
+//   }
+//   throw new Error("Не пользователь");
+// }
