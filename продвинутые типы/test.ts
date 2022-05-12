@@ -1,8 +1,8 @@
-//  Тест - Продвинутые типы
+// //  Тест - Продвинутые типы
 
-type Payment = number | { sum: number };
+// type Payment = number | { sum: number };
 
-let payment: Payment = 10;
-payment = { sum: 10 };
+// let payment: Payment = 10;
+// payment = { sum: 10 };
 
-const userName = "Вася";
+// const userName = "Вася";
