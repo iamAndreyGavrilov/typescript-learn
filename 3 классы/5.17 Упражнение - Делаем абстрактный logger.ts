@@ -1,35 +1,35 @@
-/*
-Задача:
+// /*
+// Задача:
 
-Необходимо реализовать абстрактный класс Logger с 2-мя методами
+// Необходимо реализовать абстрактный класс Logger с 2-мя методами
 
-абстрактным - log(message): void
+// абстрактным - log(message): void
 
-printDate - выводящий в log дату
+// printDate - выводящий в log дату
 
-К нему необходимо сделать реальный класс, который бы имел метод: logWithDate,
+// К нему необходимо сделать реальный класс, который бы имел метод: logWithDate,
 
-выводящий сначала дату, а потом заданное сообщение
-*/
+// выводящий сначала дату, а потом заданное сообщение
+// */
 
-abstract class Logger {
-  abstract log(message: string): void;
+// abstract class Logger {
+//   abstract log(message: string): void;
 
-  printDate(date: Date) {
-    this.log(date.toString());
-  }
-}
+//   printDate(date: Date) {
+//     this.log(date.toString());
+//   }
+// }
 
-class MyLogger extends Logger {
-  log(message: string): void {
-    console.log(message);
-  }
+// class MyLogger extends Logger {
+//   log(message: string): void {
+//     console.log(message);
+//   }
 
-  logWithDate(message: string) {
-    this.printDate(new Date());
-    this.log(message);
-  }
-}
+//   logWithDate(message: string) {
+//     this.printDate(new Date());
+//     this.log(message);
+//   }
+// }
 
-const logger = new MyLogger();
-logger.logWithDate("Мое сообщение");
+// const logger = new MyLogger();
+// logger.logWithDate("Мое сообщение");
