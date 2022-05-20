@@ -1,3 +1,4 @@
+"use strict";
 /*
 Задача:
 
@@ -11,25 +12,19 @@ printDate - выводящий в log дату
 
 выводящий сначала дату, а потом заданное сообщение
 */
-
-abstract class Logger {
-  abstract log(message: string): void;
-
-  printDate(date: Date) {
-    this.log(date.toString());
-  }
+class Logger {
+    printDate(date) {
+        this.log(date.toString());
+    }
 }
-
 class MyLogger extends Logger {
-  log(message: string): void {
-    console.log(message);
-  }
-
-  logWithDate(message: string) {
-    this.printDate(new Date());
-    this.log(message);
-  }
+    log(message) {
+        console.log(message);
+    }
+    logWithDate(message) {
+        this.printDate(new Date());
+        this.log(message);
+    }
 }
-
 const logger = new MyLogger();
 logger.logWithDate("Мое сообщение");
