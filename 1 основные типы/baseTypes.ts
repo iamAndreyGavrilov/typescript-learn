@@ -8,7 +8,7 @@
 // }
 
 // const res = {
-//   message: "Платеж прошел успешно",
+//   message: 'Платеж прошел успешно',
 //   statusCode: StatusCode.SUCCESS,
 // };
 
