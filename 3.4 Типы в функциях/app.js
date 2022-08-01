@@ -1,8 +1,8 @@
-'use strict';
-function getFullName(firstname, surname) {
-  return `${firstname} ${surname}`;
-}
-const getFullNameArrow = (firstname, surname) => {
-  return `${firstname} ${surname}`;
-};
-console.log(getFullName('Andrey', 'Gavrilov'));
+"use strict";
+// function getFullName(firstname: string, surname: string): string {
+//   return `${firstname} ${surname}`;
+// }
+// const getFullNameArrow = (firstname: string, surname: string): string => {
+//   return `${firstname} ${surname}`;
+// };
+// console.log(getFullName('Andrey', 'Gavrilov'));
