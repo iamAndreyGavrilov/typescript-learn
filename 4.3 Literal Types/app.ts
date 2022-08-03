@@ -1,9 +1,9 @@
-function fetchWithAuth(url: string, method: 'post' | 'get'): 1 | -1 {
-  return 1;
-}
+// function fetchWithAuth(url: string, method: 'post' | 'get'): 1 | -1 {
+//   return 1;
+// }
 
-fetchWithAuth('s', 'post');
+// fetchWithAuth('s', 'post');
 
-let method = 'post';
+// let method = 'post';
 
-fetchWithAuth('s', method as 'post');
+// fetchWithAuth('s', method as 'post');
